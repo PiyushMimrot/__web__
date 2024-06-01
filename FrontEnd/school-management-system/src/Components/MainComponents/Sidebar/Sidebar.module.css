@@ -1,0 +1,44 @@
+
+:root{
+    --sidebar-margin: 5px;
+}
+
+.leftSidebar{
+    user-select: none;
+    margin: var(--sidebar-margin);
+    margin-right: 20px;
+    height: 100%;
+    width: 250px;
+    background-color: #484c7f;
+    z-index: 100;
+    font-size: larger;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 100);
+    padding-right:10px ;
+    overflow-y: hidden;
+}
+.content{
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.leftSidebar ::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+}
+.leftSidebar ::-webkit-scrollbar-track{
+    background-color: #bead1600;
+}
+.leftSidebar ::-webkit-scrollbar-thumb{
+    background-color: #88888834;
+    border-radius: 10px;
+}
+.leftSidebar ::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
+
+

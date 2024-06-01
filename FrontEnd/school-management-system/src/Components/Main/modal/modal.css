@@ -1,0 +1,26 @@
+.modal-dropdowns{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.modal-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-block: 30px;
+    gap: 20px;
+}
+
+.modal-input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 6px;
+    padding: 8px 5px;
+    background-color: whitesmoke;
+}
+
+.textarea{
+    resize: none;
+}
+

@@ -1,0 +1,15 @@
+node_modules
+.server.conf
+uploads
+uploads2
+.env
+nginx.conf
+.dockerignore
+deploy.bat
+nginx.full.conf
+.mogodb.conf
+.vscode
+output
+dist
+.deploy.sh
+public

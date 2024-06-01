@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;700&display=swap');
+
+
+.heading{
+    /* font-family: 'Poppins'; */
+    /* font-weight: 700; */
+}
+
+.sec{
+    font-size: 2.25em;
+    font-weight: 300;
+    line-height: 1.226em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 0
+}

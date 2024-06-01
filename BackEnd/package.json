@@ -1,0 +1,45 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "School Management System",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "start tsc --watch &  node --watch ./dist/main.js",
+    "shahid": "start tsc --watch & nodemon ./dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-icons": "^3.0.0",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.4",
+    "twilio": "^4.18.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.11.5",
+    "@types/nodemailer": "^6.4.14",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3"
+  }
+}
